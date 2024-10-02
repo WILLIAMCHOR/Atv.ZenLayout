@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+    font-family: Arial;
+    font-size: 19px;
+}
+/* -----------------------
+        PADRÃO
+----------------------- */
+button {
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #262B32;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+button:hover {
+    scale: 105%;
+}
+button:active {
+    opacity: 0.6;
+}
+/* -----------------------
+        HEADER
+----------------------- */
+header, main .topo {
+    background: #D08AA5;
+}
+header {
+    padding: 1vw 18vw;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    color: #FFFFFF;
+    align-items: center;
+}
+header nav .ulGrande {
+    justify-content: space-between;
+}
+header nav .ulGrande .logo-pagina {
+    margin-top: 3px;
+}
+header nav .ulGrande li img {
+    margin-right: 10px;
+}
+header nav .ulGrande .espaçar-lis {
+    margin: 0 3vw;
+}
+header nav .ulGrande a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* -----------------------
+        MAIN
+----------------------- */
+/* TOPO */
+main .topo {
+    text-align: center;
+    padding: 5vw 0 3vw 0;
+}
+main .topo h1, h1 span {
+    color: #FFFFFF;
+    font-size: 60px;
+}
+main .topo h1 span {
+    border-bottom: 5px solid #FFFFFF;
+}
+main .topo p {
+    padding: 1vw 0 2vw 0;
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 1.7em;
+}
+/* CORPO */
+.corpo p {
+    color: #60697B;
+    line-height: 1.6em;
+}
+/* CORPO BACKGROUND */
+.corpo.background {
+    background: #F0D8E1;
+    padding: 4vw 18vw 4vw 18vw;
+    display: flex;
+    justify-content: center;
+}
+.corpo.background div {
+    background: #FFFFFF;
+    padding: 3vw;
+    border-radius: 6px;
+}
+.corpo.background div:last-child {
+    margin-left: 6vw;
+}
+.corpo.background div h3 {
+    padding: 0.7vw 0 0.7vw 0;
+    font-size: 21px;
+    color: #343F52;
+    font-weight: normal;
+}
+.corpo.background div p {
+    padding-bottom: 0.9vw;
+}
+.corpo.background div a {
+    text-decoration: none;
+    padding: 0.8vw 0 0.8vw 0;
+    font-size: 19px;
+}
+.corpo.background div .esquerda {
+    color: #A07CC5;
+}
+.corpo.background div .direita {
+    color: #F78B77;
+}
+/* CORPO NORMAL */
+.corpo.normal h2 {
+    text-align: center;
+    padding: 6vw 0 2vw 0;
+    color: #343F52;
+    font-size: 45px;
+}
+.corpo.normal .divGrande {
+    display: flex;
+    justify-content: center;
+}
+.corpo.normal .divGrande img {
+    margin-right: 1vw;
+}
+.corpo.normal .divGrande div {
+    margin-right: 2vw;
+}
+.corpo.normal .divGrande h3 {
+    padding: 3vw 0 0.5vw 0;
+    color: #343F52;
+    font-size: 25px;
+}
+.corpo.normal .divGrande button {
+    margin-top: 1.5vw;
+    background: #E668B3;
+    color: #FFFFFF;
+}
+/* -----------------------
+        FOOTER
+----------------------- */
+footer {
+    margin-top: 5vw;
+    padding: 2.5vw;
+    background: #D08AA5;
+    color: #FFFFFF;
+}
+footer ul {
+    text-align: center;
+}
+footer ul li ul {
+    justify-content: center;
+    display: flex;
+}
+footer ul li ul li {
+    margin: 0.7vw 0.5vw 0 0.5vw;
+}
+footer ul li ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
